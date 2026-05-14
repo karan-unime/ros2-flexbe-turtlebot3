@@ -2,15 +2,8 @@ build/
 install/
 log/
 
-__pycache__/
-*.pyc
-*.pyo
-
-.vscode/
-.idea/
-
-*.swp
-.DS_Store
-
 src/flexbe_behavior_engine/
 src/flexbe_webui/
+
+__pycache__/
+*.pyc
