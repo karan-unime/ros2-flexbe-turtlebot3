@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>flexbe_behaviors</name>
+  <version>0.0.0</version>
+
+  <description>
+    FlexBE behaviors and custom states for TurtleBot3 Gazebo navigation
+  </description>
+
+  <maintainer email="kamitrathod01@gmail.com">karan</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>flexbe_core</exec_depend>
+  <exec_depend>flexbe_states</exec_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+
+    <!-- show in Load Behavior -->
+    <flexbe_behaviors />
+
+    <!-- show in Add State -->
+    <flexbe_states />
+  </export>
+
+</package>
