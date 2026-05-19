@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="TB3Direct" file="tb3_direct_behavior_sm">
+
+  <executable package_path="flexbe_behaviors.tb3_direct_behavior_sm"
+              class="TB3DirectBehaviorSM" />
+
+  <tagstring>
+    turtlebot3, direct, cmd_vel
+  </tagstring>
+
+  <author>karan</author>
+
+  <date>May 2026</date>
+
+  <description>
+    TurtleBot3 direct movement behavior.
+  </description>
+
+</behavior>

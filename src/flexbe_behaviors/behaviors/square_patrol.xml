@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behavior name="SquarePatrol" file="square_patrol_behavior_sm">
+  <executable package_path="flexbe_behaviors.square_patrol_behavior_sm"
+              class="SquarePatrolBehaviorSM" />
+  <tagstring>turtlebot3, patrol, square, supervisory, cmd_vel</tagstring>
+  <author>karan</author>
+  <date>May 2026</date>
+  <description>
+    Robot drives a square pattern using direct cmd_vel.
+    Operator must confirm after each forward movement (Autonomy.Low).
+    Demonstrates collaborative autonomy / supervisory control.
+    No Nav2 required.
+  </description>
+</behavior>

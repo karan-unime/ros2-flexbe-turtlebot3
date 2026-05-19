@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="MoveBehavior">
+
+  <tagstring>move, turtlebot</tagstring>
+
+  <author>karan</author>
+
+  <date>May 2026</date>
+
+  <description>
+    Simple move forward behavior.
+  </description>
+
+</behavior>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behavior name="OperatorDecision" file="operator_decision_behavior_sm">
+  <executable package_path="flexbe_behaviors.operator_decision_behavior_sm"
+              class="OperatorDecisionBehaviorSM" />
+  <tagstring>turtlebot3, operator, decision, supervisory, human-in-the-loop</tagstring>
+  <author>karan</author>
+  <date>May 2026</date>
+  <description>
+    Robot drives forward then stops and waits for operator to choose:
+    turn left, turn right, or stop completely.
+    Robot cannot proceed without human input.
+    Maximum supervisory control demonstration.
+  </description>
+</behavior>
